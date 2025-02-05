@@ -1,23 +1,36 @@
-# Pseudocode Exercise 4 Library routines
+# Pseudocode Exercise 5 Library routines
 
 ---
 
 ## Exercise 1
 
-Write a program to output the numbers 1.0, 1.1, 1.2, etc. from 1.0 up to 2.0.
+Ask user to input card number. Replace the characters except the last four are replaced with the asterisk character '*'. 
+Card numbers are stored as strings. The strings are between 10 and 20 characters in length.
+
+    Example:
+    Input: "1234567890" 
+    Output: "******7890"
+    
+    Input: "1234567897652" 
+    Output: "*********7652"
 
 ## Exercise 2
 
-Ask the user to enter a sentence. Output the number of characters (excluding spaces) in the sentence.
+Create a rock, paper, scissor game using RANDOM. Ask user to input their choice, then output computer's choice and winner.
 
+    Example:
+    Enter your choice: 1-rock, 2-paper, 3-scissor
+    Input: 1
+    Output: You Lose! Computer's choice was: paper
+
+    
 ## Exercise 3
 
-Write a program that creates a username for a user. It consists of the first 3 letters of the last
-name and the first three letters of their first name.
+Convert the first characters of the given sentence to uppercase and display it.
 
-## Exercise 4
-
-Write a program that asks the user to enter a sentence, then output the sentence in reverse.
+    Example:
+    Input: "learning to code is fun"
+    Output: "Learning To Code Is Fun"
 
 ---
 
